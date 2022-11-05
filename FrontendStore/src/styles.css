@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~normalize.css';
+
+:root {
+    --primary: #9C27B0;
+    --darkPrimary: #89118D;
+    --secondary: #FFCE00;
+    --darkSecondary: rgb(233, 287, 2);
+    --white: #FFF;
+    --black: #000;
+
+    --mainFont: 'Staatliches', cursive;
+}
