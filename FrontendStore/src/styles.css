@@ -153,3 +153,29 @@ h3 {
     text-align: center;
     line-height: 1.2;
 }
+
+/* Graphs */
+
+.graph {
+    min-height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 1 / 3;
+}
+
+.graph-shirts {
+    grid-row: 2 / 3;
+    background-image: url(assets/img/grafico1.jpg);
+}
+
+.graph-node {
+    background-image: url(assets/img/grafico2.jpg);
+    grid-row: 8 / 9;
+}
+
+@media (min-width: 768px) {
+    .graph-node {
+        grid-row: 5 / 6;
+        grid-column: 2 / 4;
+    }
+}
